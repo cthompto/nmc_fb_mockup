@@ -44,6 +44,11 @@ a {
   z-index: 1;
 }
 
+.logo img {
+  height: 150px;
+  width: auto;
+}
+
 .topnav {
   display: flex;
   flex-wrap: nowrap;
@@ -103,6 +108,11 @@ section {
 
 /*Responsive*/
 @media (max-width: 1200px) {
+  .logo img {
+    height: auto;
+    width: 100%;
+  }
+
   .topnav {
     flex-direction: column;
     flex-wrap: wrap;
