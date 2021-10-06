@@ -1,0 +1,88 @@
+body {
+  background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAAXNSR0IArs4c6QAAADFJREFUKFNjZCASMBKpjgGu8MGDB/9BmhQUFLBqJt1EQk7AayLIOTCnUEchsnOI9gwA3P8MCkfAMG8AAAAASUVORK5CYII=
+   ) repeat 0 0;
+   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: black;
+  font-size: xxx-large;
+}
+
+h2 {
+  color: black;
+  font-size: xx-large;
+}
+
+h3 {
+  color: dimgrey;
+  font-size: x-large;
+}
+
+h4 {
+  color: black;
+  font-size: large;
+}
+
+p {
+  line-height: 150%;
+  text-align: justify;
+}
+
+.topnav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px 40px 40px;
+  position: relative;
+  text-align: right;
+}
+
+.topnav a {
+  color: black;
+  padding-left: 30px;
+}
+
+.navfloat1 {
+  flex: 25%;
+}
+
+.navfloat2 {
+  flex: 75%;
+  line-height: 150px;
+}
+
+main {
+  margin: auto;
+  max-width: 1000px;
+  padding: 40px;
+  position: relative;
+  width: 80%;
+}
+
+section {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/*Responsive*/
+@media (max-width: 700px) {
+  .topnav {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+  }
+
+  .topnav a {
+    width: 100%;
+  }
+
+  .navfloat1, .navfloat2 {
+    flex: 100%;
+  }
+
+  main {
+    width: 100%;
+  }
+}
